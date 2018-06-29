@@ -1,0 +1,19 @@
+{
+  "name": "oidc-client-js-583",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-ok": "webpack --mode production --define.ok \\\"true\\\" && node dist/main.js",
+    "test-fail": "webpack --mode production --define.ok \\\"false\\\"&& node dist/main.js"
+  },
+  "author": "Jani <ljani@users.noreply.github.com>",
+  "license": "ISC",
+  "dependencies": {
+    "oidc-client": "^1.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.14.0",
+    "webpack-command": "^0.3.1"
+  }
+}
